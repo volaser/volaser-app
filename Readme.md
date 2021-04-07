@@ -1,15 +1,15 @@
 ## Contents
 
-- [Description](#-description)
-- [Installation](#-installation)
-- [Development](#-development)
-- [Manual](#-manual)
-- [Features](#-features)
-- [Contact](#-contact)
-- [Requirements](#-requirements)
-- [Screenshots](#-screenshots)
-- [License](#-license)
-- [Links](#-links)
+- [Description](#description)
+- [Installation](#installation)
+- [Development](#development)
+- [Manual](#manual)
+- [Features](#features)
+- [Contact](#contact)
+- [Requirements](#requirements)
+- [Screenshots](#screenshots)
+- [License](#license)
+- [Links](#links)
 
 
 ## Description
@@ -36,13 +36,13 @@ Plese note that the app is build using react-native, so the metro server must be
 You must also enable Debugging over USB (please follow the docs on the [react-native website](https://reactnative.dev/docs/running-on-device)).
 
 ```
-git clone https://github.com/volaser/volaser-app
-cd volaser-app
-yarn install
+$ git clone https://github.com/volaser/volaser-app
+$ cd volaser-app
+$ yarn install
 ```
 ### Run the development version
 ```
-yarn android
+$ yarn android
 ```
 
 ### Contribution
@@ -67,8 +67,8 @@ In order to use the Volaser application you need the Volaser setup with the exte
 * Andriessen, Nienke <Nienke.Andriessen@eawag.ch>
 
 ## Requirements
-Minimum Android SDK Version: *23* (i.e. Android 5.0 - Lollipop)
-Target Android SDK Version: *28* (Android 9.0 - Pie)
+- Minimum Android SDK Version: *23* (i.e. Android 5.0 - Lollipop)
+- Target Android SDK Version: *28* (Android 9.0 - Pie)
 
 ## Screenshots
 ![Home](docs/screenshots/home.jpeg)
@@ -78,6 +78,7 @@ Target Android SDK Version: *28* (Android 9.0 - Pie)
 ![Debug](docs/screenshots/settings_laser.jpeg)
 
 ## Licenses
+MIT License
 
 Copyright (c) 2021 EAWAG
 
@@ -99,6 +100,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-### Links
-## Volaser firmware
+## Links
+### Volaser firmware
 More infos can be found in this [repo](https://github.com/volaser/volaser-firmware)

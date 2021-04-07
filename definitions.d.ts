@@ -8,7 +8,6 @@ type DialogInput = {
   submitInput: (input: string) => void;
 };
 
-declare module 'react-native-onboarding-swiper';
 declare module 'react-native-dialog';
 declare module '*.svg' {
   import React from 'react';
