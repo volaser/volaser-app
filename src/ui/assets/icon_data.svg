@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>icon_data</title>
+        <g id="database-2" fill="none" >
+            <ellipse id="Oval" cx="10.001" cy="4.501" rx="9.5" ry="4"></ellipse>
+            <path d="M19.5,8.5 C19.5,10.71 15.246,12.5 10,12.5 C4.754,12.5 0.5,10.71 0.5,8.5" id="Shape"></path>
+            <path d="M19.5,13 C19.5,15.21 15.246,17 10,17 C4.754,17 0.5,15.21 0.5,13" id="Shape"></path>
+            <path d="M0.5,4.5 L0.5,17.5 C0.5,19.71 4.754,21.5 10,21.5 C15.246,21.5 19.5,19.71 19.5,17.5 L19.5,4.5" id="Shape"></path>
+        </g>
+</svg>

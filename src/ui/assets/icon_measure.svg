@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Group</title>
+    <g id="02_Data_Overview" transform="translate(-51.000000, -589.000000)" fill="none">
+        <g id="Group-4" transform="translate(0.000000, 576.000000)">
+            <g id="Group-3" transform="translate(36.000000, 14.000000)">
+                <g id="Light" transform="translate(15.000000, 0.000000)">
+                    <path d="M0.5,22.368 L0.5,2.208 C0.5,1.14761328 1.3954305,0.288 2.5,0.288 L15.5,0.288 C16.6045695,0.288 17.5,1.14761328 17.5,2.208 L17.5,22.368" id="Shape"></path>
+                    <line x1="0.5" y1="4.12608" x2="17.5" y2="4.12608" id="Shape"></line>
+                    <ellipse id="Oval" cx="9" cy="12.28608" rx="5.5" ry="5.28"></ellipse>
+                    <line x1="4.198" y1="14.85984" x2="11.68" y2="7.67712" id="Shape"></line>
+                    <line x1="13.801" y1="9.71328" x2="6.319" y2="16.896" id="Shape"></line>
+                    <line x1="9" y1="10.24992" x2="11.121" y2="12.28608" id="Shape"></line>
+                    <line x1="6.879" y1="12.28608" x2="9" y2="14.3232" id="Shape"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
