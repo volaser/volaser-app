@@ -1,6 +1,8 @@
 package com.volaser.deviceRotation;
 // Based on https://github.com/muxe/react-native-device-rotation
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -21,15 +23,41 @@ public class DeviceRotation implements SensorEventListener {
 
     private ReactContext mReactContext;
 
+    private AlertDialog.Builder alertDialogBuilder;
+
     public DeviceRotation(ReactApplicationContext reactContext) {
         mSensorManager = (SensorManager) reactContext.getSystemService(reactContext.SENSOR_SERVICE);
+        assert mSensorManager != null;
         mRotationVector = mSensorManager.getDefaultSensor(Sensor.TYPE_GAME_ROTATION_VECTOR);
         mReactContext = reactContext;
+        alertDialogBuilder = new AlertDialog.Builder(mReactContext.getCurrentActivity());
+        alertDialogBuilder
+                .setTitle("Error")
+                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        });
     }
 
     public boolean start() {
-        if (mRotationVector != null && isRegistered == false) {
-            mSensorManager.registerListener(this, mRotationVector, SensorManager.SENSOR_DELAY_UI);
+        if (mRotationVector == null) {
+            this.alertDialogBuilder
+                    .setMessage("The rotation vector sensor couldn't be found. This could indicate that it doesn't exit or that the application doesn't have the appropriate permissions.")
+                    .create()
+                    .show();
+            return false;
+        }
+
+        if (!isRegistered) {
+            boolean success = mSensorManager.registerListener(this, mRotationVector, SensorManager.SENSOR_DELAY_UI);
+            if (!success) {
+                this.alertDialogBuilder
+                        .setMessage("An error occurred trying to register the rotation vector listener. This might mean the sensor isn't supported by the device.")
+                        .create()
+                        .show();
+                return false;
+            }
             isRegistered = true;
             return true;
         }
