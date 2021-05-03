@@ -67,8 +67,19 @@ In order to use the Volaser application you need the Volaser setup with the exte
 * Andriessen, Nienke <Nienke.Andriessen@eawag.ch>
 
 ## Requirements
+### Android SDK
 - Minimum Android SDK Version: *23* (i.e. Android 5.0 - Lollipop)
 - Target Android SDK Version: *28* (Android 9.0 - Pie)
+
+### Tested Hardware Android Devices
+The app has been successfully tested on the following devices.
+- Nexus 5X, Android 8
+- Redmi Note 8, Android 9
+- Sasmung A41, Android 10
+- Samsung S8, Android 9
+- Sasmung S21, Android 11
+
+We try to keep the list up to date. Please inform us, with you have also successfully used the app with the laser.
 
 ## Screenshots
 ![Home](docs/screenshots/home.jpeg)
