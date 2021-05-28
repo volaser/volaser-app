@@ -75,6 +75,7 @@ In order to use the Volaser application you need the Volaser setup with the exte
 The app has been successfully tested on the following devices.
 - Nexus 5X, Android 8
 - Redmi Note 8, Android 9
+- Samsung Galaxy A31, Android 10
 - Sasmung A41, Android 10
 - Samsung S8, Android 9
 - Sasmung S21, Android 11
