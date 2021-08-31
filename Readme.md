@@ -49,6 +49,7 @@ $ yarn android
 Feel free to contribute to this repo and open new PR.
 
 Please open an issue in case of unclarities or questions.
+
 ## Manual
 In order to use the Volaser application you need the Volaser setup with the external laser measurement device. 
 1.  Connect the laser with the usb-c cable to your android device
@@ -64,7 +65,7 @@ In order to use the Volaser application you need the Volaser setup with the exte
 - Attach pictures to data points
 
 ## Contact
-* Andriessen, Nienke <Nienke.Andriessen@eawag.ch>
+* Nienke Andriessen <nienke.andriessen@eawag.ch>
 
 ## Requirements
 ### Android SDK
@@ -72,15 +73,15 @@ In order to use the Volaser application you need the Volaser setup with the exte
 - Target Android SDK Version: *28* (Android 9.0 - Pie)
 
 ### Tested Hardware Android Devices
-The app has been successfully tested on the following devices.
+The app has been successfully tested on the following devices:
 - Nexus 5X, Android 8
 - Redmi Note 8, Android 9
 - Samsung Galaxy A31, Android 10
-- Sasmung A41, Android 10
+- Samsung A41, Android 10
 - Samsung S8, Android 9
-- Sasmung S21, Android 11
+- Samsung S21, Android 11
 
-We try to keep the list up to date. Please inform us, with you have also successfully used the app with the laser.
+We try to keep the list up to date. Please inform us, if you have also successfully used the app and the laser with a phone that is not listed here.
 
 ## Screenshots
 ![Home](docs/screenshots/home.jpeg)
